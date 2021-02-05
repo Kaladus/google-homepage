@@ -1,0 +1,66 @@
+/* Universal Styles */
+html {
+    font-family: arial,sans-serif;
+    font-size: 13px; 
+    
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    opacity: .75;
+}
+
+
+/* Navigation */
+header {
+    ;
+}
+
+nav {
+right:  ;
+   
+   
+}
+.nav-left {
+    display: flex;
+    ;
+ 
+}
+
+.nav-right {
+   float: right;
+    display: inline;
+}
+ul {
+    
+}
+li  {
+    display: inline;
+}
+
+
+#sign-in-btn {
+    background-color: #4285f4;
+    color: white;
+    font-weight: bold;
+    padding: .65em 1.25em;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 2px;
+    
+    
+}
+
+
+/* Main */
+main { 
+     display: none;
+ }
+
+
+/* Footer */
+footer {
+    display: none;
+}
+    
