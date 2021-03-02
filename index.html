@@ -14,84 +14,87 @@
 
 
 
-
+<!--Nav Section-->
     <body>
 
         <header>
             <nav>
                 
                     <ul class="nav-left">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Store</a></li>
+                        <li class=""><a href="#">About</a></li>
+                        <li class=""><a href="#">Store</a></li>
+                    </ul>
+                
+                
+                <div class="nav-right">
+                   <ul class="">
+                    <li class=""><a href="#">Gmail</a></li>
+                    <li class=""><a href="#">Images</a></li>
+                
                     
-                
-                
-                
-                   
-                    <li><a href="#">Gmail</a></li>
-                    <li><a href="#">Images</a></li>
-                    <li><a href="#"><i class="fa fa-th"></i></a></li>
-                    <button id="sign-in-btn" type="button">Sign in</button>
-                </ul>
-                
+                    <div class="tooltip">
+                        <li class=""><a href="#"><i id="fa" class="fa fa-th"></i></a></li>
+  <span class="tooltiptext">Google apps</span>
+</div> 
+                </ul> 
+                    <li class=""><button id="sign-in-btn" type="button">Sign in</button></li>
+                  
+                  </div>
                 
                     
             </nav>
         </header>
 
+     
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <!--Main Section-->
 
         <main>
-            <div>
-                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="logo"/>
-            </div>
+            <div class="test">
+            <div class="img-container">
+                <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="logo"/>
+            
                 
             
 
             <form>
                 <div class="search">
+                    
                     <label for="search-bar"></label>
-                    <input type="search" id="search-bar" name="q">
-                    <br>
-                    <button id="google-search" type="button">Google Search</button>
-                    <button id="im-feeling-lucky" type="button">I'm Feeling Lucky</button>
-
+                    <input type="search" id="search-bar" name="search">
+                    <i class="fa fa-search searchIcon"></i>
+                    <img class="microphone-icon" src="https://web.archive.org/web/20191130234609im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png"/>
                 </div>
+                    <br>
+                    <div class="search-buttons">
+                        <button id="google-search" type="button">Google Search</button>
+                        <button id="im-feeling-lucky" type="button">I'm Feeling Lucky</button>
+                    </div>
+                    
+                
             </form>
+            </div>
+            </div>
+              
+             
         </main>
 
+
+
+
+
+        <!--Footer Section-->
         <footer>
-            <ul>
+            <ul class="left-footer">
                 <li><a href="#">Advertising</a></li>
                 <li><a href="#">Business</a></li>
-                <li><a href="#">How Search Works</a></li>
+                <li><a href="#">How Search orks</a></li>
             </ul>
-            <ul>
+            <ul class="right-footer">
                 <li><a href="#">Privacy</a></li>
                 <li><a href="#">Terms</a></li>
                 <li><a href="#">Settings</a></li>
